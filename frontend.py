@@ -4,7 +4,7 @@ import requests
 import os
 
 # load_dotenv()
-BASE_URL = st.secrtes["API_KEY"]
+BASE_URL = st.secrets["API_KEY"]
 
 st.title("Streamlit + Flask File System")
 
