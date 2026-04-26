@@ -1,7 +1,10 @@
 import streamlit as st
+from dotenv import load_dotenv
 import requests
+import os
 
-BASE_URL = "https://luniest-smartly-shaina.ngrok-free.dev"
+load_dotenv()
+BASE_URL = os.getenv("API_URL")
 
 st.title("Streamlit + Flask File System")
 
